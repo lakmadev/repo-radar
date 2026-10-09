@@ -17,7 +17,8 @@ The map and the sweep line between panels animate on their own, without redrawin
 ## Install
 
 ```
-/plugin install repo-radar --marketplace lakmadev/repo-radar
+/plugin marketplace add lakmadev/repo-radar
+/plugin install repo-radar@repo-radar
 ```
 
 `/radar` opens it; `/radar reset` clears the session's trail. With `openOnStart` (on by default), it docks beside the transcript at session start in terminals 144+ columns wide.
@@ -26,6 +27,4 @@ The map and the sweep line between panels animate on their own, without redrawin
 
 The file list (`git ls-files`, run once at start) and the path argument of each tool call. Nothing leaves your machine, nothing is written, and it never blocks or changes a tool call.
 
-Part of [lakmadev/claude-mods](https://github.com/lakmadev/claude-mods), a pack of eleven Claude Code mods.
-
-MIT licensed.
+Part of [lakmadev/claude-mods](https://github.com/lakmadev/claude-mods), a pack of eleven Claude Code mods. MIT licensed.

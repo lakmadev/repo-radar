@@ -1,0 +1,15 @@
+{
+  "name": "repo-radar",
+  "description": "A live map of your codebase that lights up where Claude is working: reads glow cyan, edits amber, errors red, each subagent in its own colour.",
+  "owner": {
+    "name": "lakmadev",
+    "url": "https://github.com/lakmadev"
+  },
+  "plugins": [
+    {
+      "name": "repo-radar",
+      "source": "./",
+      "description": "A live map of your codebase that lights up where Claude is working: reads glow cyan, edits amber, errors red, each subagent in its own colour."
+    }
+  ]
+}
